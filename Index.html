@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária</title>
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte Roboto do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Botão Flutuante do WhatsApp -->
+<a href="https://wa.me/5561984269221" target="_blank" 
+   style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+  <img src="Img/whats.png" 
+       alt="WhatsApp" 
+       style="width: 60px; height: 60px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+</a>
+    <!-- Cabeçalho do site -->
+    <header>
+        <div class="container header-container">
+            <!-- Logo agora é um link para o topo da página -->
+            <a href="#home" class="logo nav-link">
+                <!-- Logo com as cores atualizadas -->
+                <img src="Img/Logo.jpg">
+                <h1>Tito Veterinário</h1>
+            </a>
+
+            <!-- Menu de navegação (removido o link "Início") -->
+            <nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#clinic" class="nav-link">Clínica</a></li>
+                    <li><a href="#services" class="nav-link">Serviços</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero/Banner principal -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Cuidados veterinários com amor e dedicação</h2>
+            <p>Oferecemos atendimento de qualidade para garantir a saúde e bem-estar do seu pet. Nossa equipe está
+                pronta para cuidar do seu melhor amigo com todo carinho que ele merece.</p>
+            <a href="#contact" class="btn nav-link">Agende uma consulta</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre o Veterinário -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Conheça Nosso Veterinário</h2>
+                <p>Profissional qualificado e apaixonado por animais</p>
+            </div>
+
+            <div class="vet-profile">
+                <div class="vet-image">
+                    <!-- Aqui você pode inserir a foto do veterinário -->
+                    <div>
+                        <img src="Img/Tito.jpg" alt="Imagem do Tito"/>
+                    </div>
+
+                </div>
+                <div class="vet-info">
+                    <h3>Dr. Carlos Silva</h3>
+                    <p>Formado pela Universidade Federal de Medicina Veterinária com mais de 10 anos de experiência no
+                        cuidado de animais de pequeno e médio porte.</p>
+                    <p>Especialista em clínica geral, cirurgia e dermatologia veterinária, o Dr. Carlos tem dedicado sua
+                        carreira a proporcionar o melhor atendimento possível para os pets e suas famílias.</p>
+                    <p>Sua paixão por animais começou ainda na infância e se transformou em uma carreira de sucesso,
+                        sempre buscando atualização e novas técnicas para oferecer tratamentos modernos e eficazes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre a Clínica -->
+    <section id="clinic" class="clinic">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossa Clínica</h2>
+                <p>Um espaço pensado para o conforto e bem-estar do seu pet</p>
+            </div>
+
+            <div class="clinic-info">
+                <div class="clinic-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Instalações Modernas</h4>
+                        <p>Nossa clínica conta com equipamentos de última geração para diagnósticos precisos e
+                            tratamentos eficazes, garantindo o melhor cuidado para seu pet.</p>
+                    </div>
+                </div>
+
+                <div class="clinic-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Equipe Qualificada</h4>
+                        <p>Contamos com profissionais experientes e apaixonados por animais, sempre prontos para atender
+                            seu pet com carinho e dedicação.</p>
+                    </div>
+                </div>
+
+                <div class="clinic-feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Atendimento Flexível</h4>
+                        <p>Oferecemos horários flexíveis e atendimento de emergência para garantir que seu pet receba
+                            cuidados quando mais precisar.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Galeria da clínica -->
+            <div class="clinic-gallery">
+                <!-- Aqui você pode inserir fotos da clínica -->
+                <div class="gallery-item">
+                    <svg width="100%" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="300" height="200" fill="#124354" />
+                        <text x="150" y="100" font-family="Arial" font-size="16" text-anchor="middle"
+                            fill="white">Recepção</text>
+                    </svg>
+                </div>
+                <div class="gallery-item">
+                    <svg width="100%" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="300" height="200" fill="#0d3240" />
+                        <text x="150" y="100" font-family="Arial" font-size="16" text-anchor="middle"
+                            fill="white">Consultório</text>
+                    </svg>
+                </div>
+                <div class="gallery-item">
+                    <svg width="100%" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="300" height="200" fill="#eb806e" />
+                        <text x="150" y="100" font-family="Arial" font-size="16" text-anchor="middle" fill="white">Sala
+                            de Cirurgia</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos uma variedade de serviços para cuidar da saúde do seu pet</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <svg width="100%" height="100%" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#124354" />
+                            <circle cx="150" cy="80" r="40" fill="white" />
+                            <rect x="130" y="130" width="40" height="10" fill="white" />
+                            <circle cx="130" cy="80" r="5" fill="#333" />
+                            <circle cx="170" cy="80" r="5" fill="#333" />
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Consultas de Rotina</h3>
+                        <p>Acompanhamento regular da saúde do seu pet, incluindo exames físicos completos e orientações
+                            sobre cuidados preventivos.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <svg width="100%" height="100%" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#eb806e" />
+                            <circle cx="150" cy="100" r="60" fill="white" stroke="#333" stroke-width="2" />
+                            <line x1="120" y1="70" x2="180" y2="130" stroke="#333" stroke-width="2" />
+                            <line x1="180" y1="70" x2="120" y2="130" stroke="#333" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Vacinação</h3>
+                        <p>Programa completo de vacinação para cães e gatos, seguindo os protocolos mais atualizados
+                            para garantir a proteção do seu pet.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <svg width="100%" height="100%" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#124354" />
+                            <rect x="100" y="70" width="100" height="60" fill="white" stroke="#333" stroke-width="2" />
+                            <line x1="100" y1="90" x2="200" y2="90" stroke="#333" stroke-width="2" />
+                            <line x1="100" y1="110" x2="200" y2="110" stroke="#333" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Cirurgias</h3>
+                        <p>Procedimentos cirúrgicos realizados com equipamentos modernos e técnicas avançadas,
+                            garantindo segurança e recuperação rápida.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <svg width="100%" height="100%" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#eb806e" />
+                            <circle cx="150" cy="100" r="50" fill="white" />
+                            <path d="M120,100 Q150,150 180,100" stroke="#333" stroke-width="2" fill="none" />
+                            <circle cx="130" cy="80" r="5" fill="#333" />
+                            <circle cx="170" cy="80" r="5" fill="#333" />
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Odontologia</h3>
+                        <p>Cuidados completos com a saúde bucal do seu pet, incluindo limpeza, extração e tratamentos
+                            para problemas dentários.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <svg width="100%" height="100%" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#124354" />
+                            <rect x="100" y="50" width="100" height="100" fill="white" stroke="#333" stroke-width="2" />
+                            <line x1="100" y1="70" x2="200" y2="70" stroke="#333" stroke-width="2" />
+                            <rect x="110" y="80" width="80" height="60" fill="#f5f5f5" />
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Exames Laboratoriais</h3>
+                        <p>Realizamos diversos exames para diagnósticos precisos, incluindo hemogramas, bioquímicos,
+                            urinálise e parasitológicos.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <svg width="100%" height="100%" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="300" height="200" fill="#eb806e" />
+                            <circle cx="150" cy="100" r="60" fill="white" />
+                            <circle cx="150" cy="100" r="40" fill="#f5f5f5" />
+                            <line x1="150" y1="50" x2="150" y2="60" stroke="#333" stroke-width="2" />
+                            <line x1="150" y1="140" x2="150" y2="150" stroke="#333" stroke-width="2" />
+                            <line x1="100" y1="100" x2="110" y2="100" stroke="#333" stroke-width="2" />
+                            <line x1="190" y1="100" x2="200" y2="100" stroke="#333" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h3>Emergências</h3>
+                        <p>Atendimento de emergência para situações que requerem cuidados imediatos, com equipe
+                            preparada para agir rapidamente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Estamos à disposição para atender você e seu pet</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <p>Rua Ipiranga 457, Cetor Oeste</p>
+                            <p>Cristalina - GO</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <p>(61) 98426-9221 (WhatsApp)</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <p>titomeimei@yahoo.com.br</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <p>Segunda a Sexta: 8h às 18h</p>
+                            <p>Sábado, Domingo e Feriados - Emergência: 24h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map">
+                    <!-- Aqui você pode inserir um mapa do Google Maps -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.0501605084314!2d-47.62038428810969!3d-16.77417984777933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93583d25ed651c8b%3A0xf147767be67ba4e0!2sCl%C3%ADnica%20Veterin%C3%A1ria%20Pequenos%20Not%C3%A1veis%20(%20Tito%20Veterin%C3%A1rio)!5e0!3m2!1spt-BR!2sbr!4v1748989941381!5m2!1spt-BR!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Clínica Veterinária</h3>
+                    <p>Cuidando com amor e dedicação do seu melhor amigo.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/clinicavetpequenosnotaveis/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/+5561984269221"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home" class="nav-link">Início</a></li>
+                        <li><a href="#about" class="nav-link">Sobre</a></li>
+                        <li><a href="#clinic" class="nav-link">Clínica</a></li>
+                        <li><a href="#services" class="nav-link">Serviços</a></li>
+                        <li><a href="#contact" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#services" class="nav-link">Consultas</a></li>
+                        <li><a href="#services" class="nav-link">Vacinação</a></li>
+                        <li><a href="#services" class="nav-link">Cirurgias</a></li>
+                        <li><a href="#services" class="nav-link">Odontologia</a></li>
+                        <li><a href="#services" class="nav-link">Exames</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Horário de Funcionamento</h3>
+                    <ul>
+                        <li>Segunda a Sexta: 8h às 18h</li>
+                        <li>Sábado: Somente emergência</li>
+                        <li>Domingo: Somente emergência</li>
+                        <li>Emergência: 24h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 1995 - 2025 Clínica Veterinária Pequenos Notaveis. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript para o menu mobile e rolagem suave -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Menu mobile toggle
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navMenu = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', function () {
+                navMenu.classList.toggle('active');
+            });
+
+            // Rolagem suave para links de navegação
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    // Previne o comportamento padrão do link
+                    e.preventDefault();
+
+                    // Fecha o menu mobile se estiver aberto
+                    navMenu.classList.remove('active');
+
+                    // Obtém o alvo da âncora
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+
+                    // Calcula a posição de rolagem com um pequeno offset para não ficar exatamente no topo
+                    const headerHeight = document.querySelector('header').offsetHeight;
+                    const targetPosition = targetSection.offsetTop - headerHeight;
+
+                    // Rola suavemente até a seção
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'94a151a402a401af',t:'MTc0ODk3NjAyNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+</body>
+
+</html>
